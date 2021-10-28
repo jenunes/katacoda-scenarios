@@ -32,4 +32,10 @@ This notebook is part of series:
 - Indexing
 - Aggregating Documents
 
+
+
+
+
+
+---
 *created by Jean da Silva*
