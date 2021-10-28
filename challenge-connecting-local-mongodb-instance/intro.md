@@ -1,4 +1,4 @@
-# Description
+## Description
 In this notebook, we are going to get our hands dirty by practicing the first module from the course.
 You will face scenarios and challenges that will help strengthen the core concept for any MongoDB deployment.
 
