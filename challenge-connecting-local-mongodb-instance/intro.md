@@ -1,29 +1,20 @@
 # Description
-In this notebook, we are going to revisit the 
-
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
-
-## Description
-
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+In this notebook, we are going to get our hands dirty by practicing the first module from the course.
+You will face scenarios and challenges that will help strengthen the core concept for any MongoDB deployment.
 
 ## Learning Objective
+By the end of this module, you will:
 
-- 3-4 bullets
-- of what you
-- will learn
+- Understand and identify the core components for mongo.
+- Understand how to connect to a Local MongoDB Instance.
+- Use mongoshell to display database, collection and documents information.
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
-
-This is for software developers with prior experience using Jenkins to deploy web applications.
+For this step, it is expected you have finished the theorical part for this module. It will help you  
+Alongside that, will be desired a basic knowledge of IT terminology/concepts, programming language skills, familiarity with basic shell commands.
 
 ## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
 
 - Database Fundamentals
 - Database Components - Documents, Collections
