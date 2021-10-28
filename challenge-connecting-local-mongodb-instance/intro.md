@@ -12,7 +12,7 @@ By the end of this module, you will:
 ## Prerequisite Skills
 
 For this step, it is expected you have finished the theorical part for this module.  
-Alongside that, will be desired a basic knowledge of IT terminology/concepts, programming language skills, familiarity with basic shell commands.
+Alongside that, will be welcome a basic knowledge of IT terminology/concepts, programming language skills, familiarity with basic shell commands.
 
 ## Table of Contents
 
