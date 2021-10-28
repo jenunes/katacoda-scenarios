@@ -22,7 +22,7 @@ Alongside that, will be welcome a basic knowledge of IT terminology/concepts, pr
 ## Getting Started with MongoDB
 This notebook is part of series:
 
-- Fundamentals <- **You are here**
+- Fundamentals ← **You are here**
 - Performing Basic Write Operations
 - Querying
 - Indexing
