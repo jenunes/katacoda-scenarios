@@ -1,4 +1,5 @@
-# Connecting to a Local MongoDB Instance
+# Description
+In this notebook, we are going to revisit the 
 
 This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
 
@@ -24,8 +25,16 @@ This is for software developers with prior experience using Jenkins to deploy we
 
 If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
 
-- Scenario A
-- Scenario B
-- Scenario C
+- Database Fundamentals
+- Database Components - Documents, Collections
+
+## Getting Started with MongoDB
+This notebook is part of series:
+
+- Fundamentals 
+- Performing Basic Write Operations
+- Querying
+- Indexing
+- Aggregating Documents
 
 
