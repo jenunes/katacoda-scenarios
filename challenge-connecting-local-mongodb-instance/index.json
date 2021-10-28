@@ -6,15 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "MongoDB Fundamentals - Core Components",
+        "title": "Core Components",
         "text": "step1.md"
       },
       {
-        "title": "MongoDB Fundamentals - Connecting to the Instance",
+        "title": "Connecting to Local Instance",
         "text": "step2.md"
       },
       {
-        "title": "MongoDB Fundamentals - Displaying Information",
+        "title": "Mongoshell - Displaying Information",
         "text": "step3.md"
       }
     ],
