@@ -31,7 +31,7 @@ If the scenario is part of a set of related scenarios, the table of contents wil
 ## Getting Started with MongoDB
 This notebook is part of series:
 
-- Fundamentals 
+- Fundamentals <- Tou are here
 - Performing Basic Write Operations
 - Querying
 - Indexing
