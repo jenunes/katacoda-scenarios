@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "Module 1 - MongoDB Fundamentals",
+  "description": "In this module we are going to review the first module on Getting Started With MongoDB.",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
