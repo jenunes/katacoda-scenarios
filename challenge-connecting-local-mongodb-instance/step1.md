@@ -20,8 +20,10 @@ To access the instance(*[mongod](https://docs.mongodb.com/manual/reference/progr
 ##### Workflow of components interaction:
 mongo *→ connects to →* mongod
 
+As [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) is the database process, we can see its status as follows:
+`systemctl status mongod`{{execute}}
 
-
+---
 Over the course, all contents and structure 
 This is some text.
 
