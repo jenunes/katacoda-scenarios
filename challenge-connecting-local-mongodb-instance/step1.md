@@ -36,14 +36,14 @@ As seen over learning session; MongoDB provides the following capability for dat
 
 [Standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) - *Basic installation, single node.*
 
-
+---
 [Replica Set](https://docs.mongodb.com/manual/replication/#replication) - *Standard replication, multiple copies of data on different database servers, provides a level of fault tolerance against the loss of a single database server.*
 
 ![MongoReplicaSet](./assets/replica-set-read-write-operations-primary.bakedsvg.svg)
 
 *Primary and Secondary, are [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) processes running on diferent sites.*
 
-
+---
 [Sharded Cluster](https://docs.mongodb.com/manual/sharding/) - *It's the Clustering feature from MongoDB; Allows distributing data across multiple machines(scalle-out), for very large data sets and high throughput operations.*
 ![MongoShard](./assets/sharded-cluster-production-architecture.bakedsvg.svg)
  
