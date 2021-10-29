@@ -47,8 +47,8 @@ Where:
 # Testing connection:
 
 Althogh access control is not enabled,we can connect with the following user which has been created before:
-- username - read_user
-- password - gswmongo
+- username   - read_user
+- password   - gswmongo
 - [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource) - module1
 
  
