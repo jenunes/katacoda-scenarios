@@ -27,7 +27,7 @@ To do so, there are two methods to build your [connection string](https://docs.m
 
 *For a Standalone, with access control enabled*
 
-`mongodb://dba_adm:sekr3t@mongodb0.example.com:27017/?authSource=admin`
+`mongo mongodb://dba_adm:sekr3t@mongodb0.example.com:27017/?authSource=admin`
 
 Here:
 
