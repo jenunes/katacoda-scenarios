@@ -20,7 +20,12 @@
       {
         "title": "Displaying Information",
         "text": "step4.md"
+      },
+      {
+        "title": "Interactive Quiz",
+        "text": "quiz.md"
       }
+
     ],
     "intro": {
       "text": "intro.md",
