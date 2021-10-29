@@ -13,7 +13,7 @@ Once connected, the mongo shell has several buil-in commands that we can use dur
 
 ## Changing database:
 `use module1`{{execute}}
-- `U+1F4A1` - `use <some-database-name>` can also be used to create a new **empty** database. 
+- 💡 - `use <some-database-name>` can also be used to create a new **empty** database. 
 
 Let's say we plan to create the database *module2*, we can then simply:
 
