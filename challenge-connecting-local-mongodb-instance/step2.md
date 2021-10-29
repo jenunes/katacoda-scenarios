@@ -15,10 +15,12 @@ As seen over learning session; MongoDB provides the following capability for dat
 **Primary** *and* **Secondary**,* are [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) processes running on diferent sites.*
 
 ---
-[Sharded Cluster](https://docs.mongodb.com/manual/sharding/) - *It's the Clustering feature from MongoDB; Allows distributing data across multiple machines(scalle-out), for very large data sets and high throughput operations.*
+[Sharded Cluster](https://docs.mongodb.com/manual/sharding/) - *It's the Clustering feature from MongoDB; Allows distributing data across multiple machines(scale-out), for very large data sets and high throughput operations.*
 ![MongoShard](./assets/sharded-cluster-production-architecture.bakedsvg.svg)
 
-*Instead of connecting to [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod), the application must on [mongos](https://docs.mongodb.com/manual/reference/program/mongos/), for adminstrative tasks we can use the mongo shell to either connect on [mongos](https://docs.mongodb.com/manual/reference/program/mongos/) or [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod).*
+*Instead of connecting to [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod), the application must connect on [mongos](https://docs.mongodb.com/manual/reference/program/mongos/).
+
+For administrative tasks you can use the mongo shell to either connect on [mongos](https://docs.mongodb.com/manual/reference/program/mongos/) or [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod).*
 
 
 
