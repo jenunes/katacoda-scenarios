@@ -35,5 +35,5 @@ For most of the time before querying any document, we just wan't to understand w
 For that we can make use of database function [findOne()](https://docs.mongodb.com/realm/mongodb/actions/collection.findOne/#collection.findone--), to return a single document from a collection:
 
 `db.reviews.findOne()`{{execute}}
-- `U+1F4A1` - 
+- `U+1F4A1` - Mongo Shell has builting autocomplete, in which we can use by pressing the key `TAB`.
 
