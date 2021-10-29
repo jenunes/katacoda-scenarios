@@ -44,3 +44,12 @@ Here:
 
 `mongo --host=mongodb0.example.com --port=27017 --username=dba_adm --password-sekr3t --authenticationDatabase=admin`
 
+
+# Testing connection:
+
+Althogh access control is not enabled,wWe can connect with the following user which has been created before:
+- username - read_user
+- password - gswmongo
+- [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource) - module1
+
+ 
