@@ -10,26 +10,39 @@ Good luck, and see you on the next module!
 ---
 >>Q1: MongoDB is..<<
 () a columnar database.
-() a oject-oriented database.
+() a object-oriented database.
 (*) a document database.
 () a graph database.
 
 
 ---
 >>Q2: What is the name for the MongoDB daemon process?<<
-() mongo
-() PRIMARY
-(*) mongod
-() mongodb 
+() mongo.
+() PRIMARY.
+(*) mongod.
+() mongodb.
+
 
 >>Q2: True or false, can you use MongoDB Replica Set to split data across multiple machines?<<
 =~= False
 
->>Q3: What is the name for standard replication for MongoDB <<
-(*) Replica Set
-() 
-() Incorrect
 
->>Q4: Single Choice <<
-(*) Correct
-( ) Incorrect
+>>Q3: True or false, to connect to a MongoDB instance, we should use the `mongo` as shell interface? <<
+=~= True
+
+
+>>Q4: What is the default port for MongoDB? <<
+== 27017
+
+>>Q5: Once connected, how can you list all databases?<<
+[] show database;
+[*] show databases;
+[*] show dbs;
+
+>>Q6: How to list collections?<<
+() list colls;
+() show collection;
+(*) show collections;
+
+>>Q8: How to create a new database named `quiz`?<<
+== use quiz
