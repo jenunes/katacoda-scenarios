@@ -17,23 +17,32 @@ There is also [The MongoDB Database Tools](https://docs.mongodb.com/database-too
 
 To access the instance(*[mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod)*) we need a tool able to do so. To this end, we can use the mongo shell(*[mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo)*) or any third-party tool.
 
-##### Workflow of components interaction:
+##### Workflow of interaction:
 mongo *→ connects to →* mongod
 
-As [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) is the database process, we can see its status as follows:
+
+- As [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) is the database process, we can see its status as follows:
 `systemctl status mongod`{{execute}}
 
+
+
 ---
-Over the course, all contents and structure 
-This is some text.
 
-Here's a single line of runnable code:
+Ok, one of the possible questions you might be thinking at this point is - "*What I can do with that components?*"
 
-`printf 'Hello, world!\n\n'`{{execute}}
+As seen over learning session; MongoDB provides the following capability for data replication and availability:
+-[Standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) - *Basic installation, single node.*
+
+
+- [Replica-Set](https://docs.mongodb.com/manual/replication/#replication) - *Standard replication, multiple copies of data on different database servers, provides a level of fault tolerance against the loss of a single database server.*
 
 ![MongoReplicaSet](./assets/replica-set-read-write-operations-primary.bakedsvg.svg)
+*Primary and Secondary, are [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) processes running on diferent sites.*
 
 
+- [Sharded Cluster](https://docs.mongodb.com/manual/sharding/) - *It's the Clustering feature from MongoDB; Allows distributing data across multiple machines(scalle-out), for very large data sets and high throughput operations.*
+![MongoShard](./assets/sharded-cluster-production-architecture.bakedsvg.svg)
+ 
 ## References
 
 1.1. Database Fundamentals.
