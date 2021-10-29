@@ -10,12 +10,16 @@
         "text": "step1.md"
       },
       {
-        "title": "Connecting to Local Instance",
+        "title": "Topologies",
         "text": "step2.md"
       },
       {
-        "title": "Mongoshell - Displaying Information",
+        "title": "Connecting to Local Instance",
         "text": "step3.md"
+      },
+      {
+        "title": "Mongoshell - Displaying Information",
+        "text": "step4.md"
       }
     ],
     "intro": {
