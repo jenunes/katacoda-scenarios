@@ -1,20 +1,25 @@
 
-On the finish page, summarize what was just learned:
+With the completion of this notebook, you can now:
 
-- 3-4 bullets
-- of what you just
-- did and learned
+- Understand and identify the core components for mongo.
+- Understand how to connect to a Local MongoDB Instance.
+- Use mongoshell to display database, collection and documents information.
+
 
 ## Table of Contents
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
+This content was part of a set of related scenarios in the base material:
 
-- Scenario A
-- Scenario B
-- Scenario C
+1. Database Fundamentals.
+
+2. Database Components.
+
 
 ## Further Learning
 
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
+The next notebook for this learning series is the Module - 2.
+
+In this next notebook we are going to revisit and practice our skills to *Perfor Basic Write Operations*.
 
 
+See you them!
