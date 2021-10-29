@@ -2,7 +2,7 @@
 Ok, one of the possible questions you might be thinking at this point is: 
 "**What I can do with that components?**"
 
-As seen over learning session; MongoDB provides the following capability for data replication and availability:
+As seen over base material session; MongoDB provides the following capability for data replication and availability:
 
 ---
 [Standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) - *Basic installation, single node.*
@@ -25,7 +25,7 @@ For administrative tasks you can use the mongo shell to either connect on [mongo
 
 
 
-## References
+## Reference Material
 
 1.1. Database Fundamentals.
 
