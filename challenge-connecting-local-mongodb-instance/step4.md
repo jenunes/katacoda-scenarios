@@ -21,11 +21,7 @@ Once connected, the mongo shell has several buil-in commands that we can use dur
 - As we created a new database in the step above, it's empty. **Please move back to module1 and list the collections again**.
 
 ## Showing Users:
+`show users`{{execute}}
+- Inside module1 we only have the user db_admin, which where its authenticates.
 
-
-This is some text.
-
-Here's a single line of runnable code:
-
-`printf 'Cello, world!\n\n'`{{execute}}
 
