@@ -9,6 +9,10 @@ You can run the following command:
 
 *Easy, right?!*
 
+To exit, simply:
+
+`exit`{{execute}}
+
 Before moving on. This instance **does not have access control enabled**, that's why you can freely connect without user and password.
 
 For security stand-point, it is not a configuration advised for productive environments.
