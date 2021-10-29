@@ -19,8 +19,11 @@ Alongside that, will be welcome a basic knowledge of IT terminology/concepts, pr
 
 ## Table of Contents
 
-- Database Fundamentals
-- Database Components - Documents, Collections
+- Core Components.
+- Topologies.
+- Connecting to Local Instance
+- Displaying Information
+- Interactive Quiz
 
 
 ## Getting Started with MongoDB
