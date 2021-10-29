@@ -53,6 +53,6 @@ Althogh access control is not enabled,we can connect with the following user whi
 
  
 We can then:
-`mongo mongodb://read_user:'gswmongo'@localhost:27017/?authSource=module1`{{execute}}
+`mongo mongodb://db_admin:'gswmongo'@localhost:27017/?authSource=module1`{{execute}}
 **or**
-`mongo --host=localhost --port=27017 --username=read_user --password='gswmongo' --authenticationDatabase=module1`{{execute}}
+`mongo --host=localhost --port=27017 --username=db_admin --password='gswmongo' --authenticationDatabase=module1`{{execute}}
