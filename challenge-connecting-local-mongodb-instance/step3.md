@@ -21,16 +21,15 @@ For security stand-point, it is not a configuration advised for productive envir
 ## Building your connection string:
 
 But we know that on real world, that's not the case.
-To do so, there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format)
+To do so, there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
-**1** - Using [URI format](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format):
+**1** - Using [URI format](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
-*For a Standalone, with access control enabled*
+*For a Standalone, with access control enabled*:
 
 `mongo mongodb://dba_adm:sekr3t@mongodb0.example.com:27017/?authSource=admin`
 
-Here:
-
+Where:
 - dba_adm              - *Is the user*.
 - sekr3t               - *Is the password*.
 - mongodb0.example.com - *Is the Host*.
@@ -40,16 +39,20 @@ Here:
 
 **Tip:** The default for [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) is [27017](https://docs.mongodb.com/manual/reference/default-mongodb-port/#default-mongodb-port).
 
-**2** - Passing options over the command:
+**2** - Passing options over the command.
 
-`mongo --host=mongodb0.example.com --port=27017 --username=dba_adm --password-sekr3t --authenticationDatabase=admin`
+`mongo --host=mongodb0.example.com --port=27017 --username=dba_adm --password=sekr3t --authenticationDatabase=admin`
 
 
 # Testing connection:
 
-Althogh access control is not enabled,wWe can connect with the following user which has been created before:
+Althogh access control is not enabled,we can connect with the following user which has been created before:
 - username - read_user
 - password - gswmongo
 - [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource) - module1
 
  
+We can then:
+`mongo mongodb://read_user:'gswmongo'@localhost:27017/?authSource=module1`{{execute}}
+**or**
+`mongo --host=localhost --port=27017 --username=read_user --password='gswmongo' --authenticationDatabase=module1`{{execute}}
