@@ -25,7 +25,7 @@ For administrative tasks you can use the mongo shell to either connect on [mongo
 
 
 
-## Reference Material
+## Reference Material:
 
 1.1. Database Fundamentals.
 

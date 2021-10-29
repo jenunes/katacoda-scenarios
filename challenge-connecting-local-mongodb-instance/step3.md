@@ -1,8 +1,10 @@
-# Heading for Step 3
 
-This is some text.
+With the foundation done. Let's connect the MongoDB instance!
 
-Here's a single line of runnable code:
+## Mongo Shell:
 
-`printf 'Cello, world!\n\n'`{{execute}}
+You can run:
+`mongo`{{execute}}
+U+1F389
+
 
