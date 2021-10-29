@@ -8,5 +8,5 @@ sudo dpkg -i mongodb-org-*
 systemctl start mongod
 apt install mongo-tools -y
 sleep 3;
-mongo localhost:27017/module1 --eval "db.createUser({user:'db_admin', pwd:'gswmongo', roles: ['dbAdmin', db: 'module1']})";
+mongo localhost:27017/module1 --eval "db.createUser({user:'db_admin', pwd:'gswmongo', roles: [{role: 'userAdmin', db: 'module1'}]})";
 mongoimport --drop --host localhost --port 27017 --db module1 --collection reviews --file listingsAndReviews.json
