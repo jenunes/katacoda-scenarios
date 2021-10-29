@@ -17,8 +17,10 @@ There is also [The MongoDB Database Tools](https://docs.mongodb.com/database-too
 
 To access the instance(*[mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod)*) we need a tool able to do so. To this end, we can use the mongo shell(*[mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo)*) or any third-party tool.
 
-###### Workflow of components interaction:
+##### Workflow of components interaction:
 mongo *→ connects to →* mongod
+
+
 
 Over the course, all contents and structure 
 This is some text.
