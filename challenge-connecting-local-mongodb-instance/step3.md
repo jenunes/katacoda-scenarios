@@ -25,15 +25,22 @@ To do so, there are two methods to build your [connection string](https://docs.m
 
 **1** - Using [URI format](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format):
 
-*For a Standalone*
+*For a Standalone, with access control enabled*
 
-`mongodb://mongodb0.example.com:27017`
+`mongodb://dba_adm:sekr3t@mongodb0.example.com:27017/?authSource=admin`
 
-Here **mongodb0.example.com** is the host, and **27017** the port.
+Here:
+
+- dba_adm              - *Is the user*.
+- sekr3t               - *Is the password*.
+- mongodb0.example.com - *Is the Host*.
+- 27017                - *Is the Port*.
+- [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource)           - *Is the database with the user's credential*
+
 
 **Tip:** The default for [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) is [27017](https://docs.mongodb.com/manual/reference/default-mongodb-port/#default-mongodb-port).
 
 **2** - Passing options over the command:
 
-`mongo --host=mongodb0.example.com --port=27017`
+`mongo --host=mongodb0.example.com --port=27017 --username=dba_adm --password-sekr3t --authenticationDatabase=admin`
 
