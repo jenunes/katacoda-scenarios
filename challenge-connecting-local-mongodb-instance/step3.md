@@ -37,7 +37,7 @@ Where:
 - [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource)           - *Is the database with the user's credential*
 
 
-`U+1F4A1` The default for [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) is [27017](https://docs.mongodb.com/manual/reference/default-mongodb-port/#default-mongodb-port).
+💡 - The default for [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) is [27017](https://docs.mongodb.com/manual/reference/default-mongodb-port/#default-mongodb-port).
 
 **2** - Passing options over the command.
 
