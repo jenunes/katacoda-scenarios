@@ -54,14 +54,15 @@ Althogh access control is not enabled, we can connect with the following user wh
 - [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource) - module1
 
  
-From the shell wen can then translate that user information into the connection string as follows:
+We can then replace that user information into the connection string as follows:
 `mongo mongodb://db_admin:'gswmongo'@localhost:27017/?authSource=module1`{{execute}}
 **or**
 `mongo --host=localhost --port=27017 --username=db_admin --password='gswmongo' --authenticationDatabase=module1`{{execute}}
 
 
-**Great!**
 
-In that way we used the mongo shell [mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo) to connect into our MongoDB instance.
+
+**Great!**
+We used the mongo shell [mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo) to connect into the MongoDB instance for the first time.
 
 Once connected we can navigate and display the database structures. For that, let's move to the next step!
