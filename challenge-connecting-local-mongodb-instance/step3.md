@@ -1,7 +1,9 @@
 
-With the foundation done. Let's connect the MongoDB instance!
+With the foundation done and having the understanding of the components from the previous steps, we can now use it to connect the MongoDB instance!
 
 ## Mongo Shell:
+
+First, let's try connecting using the mongo shell(*[mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo)*) without the user and password.
 
 You can run the following command:
 
@@ -9,7 +11,7 @@ You can run the following command:
 
 *Easy, right?!*
 
-To exit, simply:
+To exit and close the connection with the instance, we can :
 
 `exit`{{execute}}
 
@@ -20,8 +22,8 @@ For security stand-point, it is not a configuration advised for productive envir
 
 ## Building your connection string:
 
-But we know that on real world, that's not the case.
-To do so, there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
+But we know that on real world the database must have access controle enabled.
+To connect in that circuntances, we must use a valid user and passowrd, and for that there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
 **1** - Using [URI format](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
