@@ -17,7 +17,7 @@ To exit and close the connection with the instance, we can :
 
 Before moving on. This instance **does not have access control enabled**, that's why you can freely connect without user and password.
 
-For security stand-point, it is not a configuration advised for productive environments.
+From a security standpoint, it is not a configuration advised for productive environments.
 
 
 ## Building your connection string:
@@ -47,7 +47,7 @@ Where:
 
 # Testing connection:
 
-Althogh access control is not enabled, we can connect with the following user which has been created before:
+Although access control is not enabled, we can connect with the following user which has been created before:
 - username   - read_user
 - password   - gswmongo
 - [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource) - module1
@@ -62,6 +62,6 @@ We can then replace that user information into the connection string as follows:
 
 
 **Great!**
-We used the mongo shell [mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo) to connect into the MongoDB instance for the first time.
+We used the mongo shell [mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo) to connect to the MongoDB instance for the first time.
 
 Once connected we can navigate and display the database structures. For that, let's move to the next step!

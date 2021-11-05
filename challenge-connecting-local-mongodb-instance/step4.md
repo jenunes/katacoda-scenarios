@@ -1,9 +1,10 @@
 
-All right! Per the last step, you should be connect into the instance.
-With that done you can explore the internal estructure.
+All right! Per the last step, you should be connected to the instance. 
+With that done you can explore the internal structure.
 
 
-Once connected, the mongo shell has **several buil-in commands** that you can use during the tasks.
+Once connected, the mongo shell has **several built-in commands** that you can use during the tasks.
+
 
 ## Listing database:
 - Let's start by printing a list of all available databases:

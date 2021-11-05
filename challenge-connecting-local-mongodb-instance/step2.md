@@ -14,7 +14,7 @@ Below we have a list of possible implementations:
 
 ![MongoReplicaSet](./assets/replica-set-read-write-operations-primary.bakedsvg.svg)
 
-**Primary** *and* **Secondary**,* are [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) processes running on diferent sites. We then use the mongo shell(*[mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo)*) to interact with.*
+**Primary** *and* **Secondary**,* are [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) processes running on different sites. We then use the mongo shell(*[mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo)*) to interact with.*
 
 💡 - The minimum recommended configuration for a replica set is a three member - one [primary](https://docs.mongodb.com/manual/core/replica-set-members/#std-label-replica-set-primary-member) and two [secondary](https://docs.mongodb.com/manual/core/replica-set-members/#secondaries) members.
 
