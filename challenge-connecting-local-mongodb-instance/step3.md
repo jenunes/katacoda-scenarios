@@ -1,5 +1,5 @@
 
-With the foundation done and having the understanding of the components from the previous steps, we can now use it to connect the MongoDB instance!
+With the foundation done and having the understanding of the components from the previous steps, we can now use it and connect into the MongoDB instance!
 
 ## Mongo Shell:
 
@@ -22,8 +22,7 @@ For security stand-point, it is not a configuration advised for productive envir
 
 ## Building your connection string:
 
-But we know that on real world the database must have access controle enabled.
-To connect in that circumtances, we must use a valid user and password, and for that there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
+But we know that in real world the database must have access control enabled. To connect in that circumstances, we must use a valid user and password, and for that, there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
 **1** - Using [URI format](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
