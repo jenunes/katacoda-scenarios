@@ -41,11 +41,21 @@ As we created a new database in the step above, it's empty.
 - Inside database **module1** we only have the user db_admin, which where its authenticates.
 
 ## Checking document structure:
-- For most of the time before querying any document, we just wan't to understand what's structure. 
+- For most of the time before querying any document, we just wan't to understand what's in the structure. 
 For that we can make use of database function [findOne()](https://docs.mongodb.com/realm/mongodb/actions/collection.findOne/#collection.findone--), to return a single document from a collection:
 
 `db.reviews.findOne()`{{execute}}
 
 💡 - Mongo Shell has builting autocomplete, in which we can use by pressing the key `TAB`.
 
+
+## Summary:
+
+After these lessons, you learned the core concepts for MongoDB deployments with replication topology, scenarios that are common in production environments, and how to properly connect into the instance.
+
+Alongside that, you visited the core structure inside a mongo instance, walking through the database, collection, user, and document information. Displaying the data with the built-in commands from mongo shell.
+
+Next, you will be changed in a quiz scenario to review the above concepts. We hope you have enjoyed it.
+
+See you then!
 
