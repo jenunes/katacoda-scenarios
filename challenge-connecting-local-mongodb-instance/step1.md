@@ -1,9 +1,10 @@
 
 # Introduction:
 
-Over the course we will interact with a [standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) MongoDB, as it meet our needs.
+Over the course, we will interact with a [standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) MongoDB.
 
-Getting in touch and reviwing the existing components for MongoDB will help in understanding their pourpose in a full deployment as productive enviroments, which is likely you will interact with all of them.   
+But, getting in touch and reviewing the existing components for MongoDB will help in understanding their purpose in a full deployment as usually in productive environments.
+
 
 # Components:
 The existing components for MongoDB are:
