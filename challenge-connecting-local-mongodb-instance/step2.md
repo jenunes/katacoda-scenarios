@@ -14,7 +14,7 @@ MongoDB provides the following capability for data replication and availability:
 
 **Primary** *and* **Secondary**,* are [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod) processes running on diferent sites. We then use the mongo shell(*[mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo)*) to interact with.*
 
-💡 - The minimum recommended configuration for a replica set is a three member - one primary and two secondary members.
+💡 - The minimum recommended configuration for a replica set is a three member - one [primary](https://docs.mongodb.com/manual/core/replica-set-members/#std-label-replica-set-primary-member) and two [secondary](https://docs.mongodb.com/manual/core/replica-set-members/#secondaries) members.
 
 ---
 [Sharded Cluster](https://docs.mongodb.com/manual/sharding/) - *It's the Clustering feature from MongoDB; **Allows distributing data across multiple machines(scale-out)**, for very large data sets and high throughput operations.*
