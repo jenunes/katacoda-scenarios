@@ -19,10 +19,10 @@ This content was part of a set of related scenarios in the base material:
 
 The next notebook for this learning series is the Module - 2.
 
-In this next notebook we are going to revisit and practice your skills to *Perfor Basic Write Operations*.
+In this next notebook we are going to revisit and practice your skills to *Perform Basic Write Operations*.
 
 Fundamentals
-**Performing Basic Write Operations** *← Next up*
+***Performing Basic Write Operations*** *← Next up*
 Querying
 Indexing
 Aggregating Documents

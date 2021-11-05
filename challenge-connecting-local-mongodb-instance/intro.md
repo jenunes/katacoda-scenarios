@@ -15,7 +15,7 @@ By the end of this scenario, you will:
 
 ## Prerequisite Skills
 
-For this step, it is expected you have finished the theorical part for this module.  
+For this step, it is expected you have finished the theorical part for this module that you can study ***here***.  
 Alongside that, will be welcome a basic knowledge of IT terminology/concepts, programming language skills, familiarity with basic shell commands.
 
 
@@ -31,7 +31,7 @@ Alongside that, will be welcome a basic knowledge of IT terminology/concepts, pr
 ## Getting Started with MongoDB
 This notebook is part of series:
 
-- Fundamentals ← **You are here**
+- ***Fundamentals*** *← You are here*
 - Performing Basic Write Operations
 - Querying
 - Indexing
@@ -39,8 +39,4 @@ This notebook is part of series:
 
 
 
-
-
-
----
 *Created by Jean da Silva*
