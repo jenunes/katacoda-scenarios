@@ -27,7 +27,7 @@ Good luck, and see you on the next module!
 =~= False
 
 
->>Q3: True or false, to connect to a MongoDB instance, we should use the `mongo` as shell interface? <<
+>>Q3: True or false, to connect to a MongoDB instance, should we use the `mongo` as shell interface? <<
 =~= True
 
 
