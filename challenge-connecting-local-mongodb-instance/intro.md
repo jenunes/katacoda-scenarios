@@ -3,7 +3,7 @@
 
 In this scenario, we will walk through the core components for any MongoDB installation, illustrating possible topologies.
 
-With these concepts, we will build a connection string to connect into a mongo instance for the first time and then navigate through the internal structure of MongoDB.
+With these concepts, we will build a connection string to connect into a mongo instance for the first time, and then navigate through the internal structure of MongoDB.
 
 
 ## Learning Objective
