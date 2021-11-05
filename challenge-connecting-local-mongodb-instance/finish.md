@@ -21,11 +21,11 @@ The next notebook for this learning series is the Module - 2.
 
 In this next notebook we are going to revisit and practice your skills to *Perform Basic Write Operations*.
 
-Fundamentals
-***Performing Basic Write Operations*** *← Next up*
-Querying
-Indexing
-Aggregating Documents
+- Fundamentals
+- ***Performing Basic Write Operations*** *← Next up*
+- Querying
+- Indexing
+- Aggregating Documents
 
 
 See you them!
