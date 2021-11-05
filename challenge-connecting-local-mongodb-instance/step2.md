@@ -5,7 +5,7 @@ Ok, one of the possible questions you might be thinking at this point is:
 MongoDB provides the following capability for data replication and availability, and those are the components necessary to achieve these features:
 
 ---
-[Standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) - *Basic installation, single node which is a [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod), the application must connect on [mongos](https://docs.mongodb.com/manual/reference/program/mongos/) running alone.*
+[Standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) - *It is the Basic installation, a single node [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod), the application must connect on [mongos](https://docs.mongodb.com/manual/reference/program/mongos/) running alone.*
 
 ---
 [Replica Set](https://docs.mongodb.com/manual/replication/#replication) - *Standard replication, **multiple copies of data on different database servers**, provides a level of fault tolerance against the loss of a single database server.*
