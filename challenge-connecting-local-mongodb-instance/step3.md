@@ -23,7 +23,7 @@ For security stand-point, it is not a configuration advised for productive envir
 ## Building your connection string:
 
 But we know that on real world the database must have access controle enabled.
-To connect in that circuntances, we must use a valid user and passowrd, and for that there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
+To connect in that circumtances, we must use a valid user and password, and for that there are two methods to build your [connection string](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
 **1** - Using [URI format](https://docs.mongodb.com/upcoming/reference/connection-string/#connection-string-uri-format).
 
@@ -48,13 +48,20 @@ Where:
 
 # Testing connection:
 
-Althogh access control is not enabled,we can connect with the following user which has been created before:
+Althogh access control is not enabled, we can connect with the following user which has been created before:
 - username   - read_user
 - password   - gswmongo
 - [authSource](https://docs.mongodb.com/upcoming/reference/connection-string/#mongodb-urioption-urioption.authSource) - module1
 
  
-We can then:
+From the shell wen can then translate that user information into the connection string as follows:
 `mongo mongodb://db_admin:'gswmongo'@localhost:27017/?authSource=module1`{{execute}}
 **or**
 `mongo --host=localhost --port=27017 --username=db_admin --password='gswmongo' --authenticationDatabase=module1`{{execute}}
+
+
+**Great!**
+
+In that way we used the mongo shell [mongo](https://docs.mongodb.com/upcoming/reference/program/mongo/#mongodb-binary-bin.mongo) to connect into our MongoDB instance.
+
+Once connected we can navigate and display the database structures. For that, let's move to the next step!
