@@ -43,4 +43,4 @@ This notebook is part of series:
 
 
 ---
-*created by Jean da Silva*
+*Created by Jean da Silva*
