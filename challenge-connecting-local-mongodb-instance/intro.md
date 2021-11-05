@@ -1,10 +1,12 @@
 ## Description
-In this notebook, we are going to get our hands dirty by practicing the first module from the course.
-You will face scenarios and challenges that will help strengthen the core concept for any MongoDB deployment.
+
+
+In this scenario, we will walk through the core components for any MongoDB installation, illustrating possible topologies.
+With these concepts, we will build a connection string to connect into a mongo instance for the first time and then navigate through the internal structure of MongoDB.
 
 
 ## Learning Objective
-By the end of this module, you will:
+By the end of this scenario, you will:
 
 - Understand and identify the core components for mongo.
 - Understand how to connect to a Local MongoDB Instance.
