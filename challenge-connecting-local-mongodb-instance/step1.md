@@ -3,7 +3,7 @@
 
 Over the course, we will interact with a [standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) MongoDB.
 
-But, getting in touch and reviewing the existing components for MongoDB will help in understanding their purpose in a full deployment as usually in productive environments.
+Getting in touch and reviewing the existing components for MongoDB will help in understanding their purpose and how you can interact with them. Although we are using a [standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) configuration, in productive enviroments it is likely you will interact with a full deployment.
 
 
 # Components:
