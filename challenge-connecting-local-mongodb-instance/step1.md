@@ -3,7 +3,7 @@
 
 Over the course we will interact with a [standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) MongoDB, as it meet our needs.
 
-But, It is important to have in mind which are the existing components for MongoDB, once in productive enviroments it is likely you will interact with all of them.   
+Getting in touch and reviwing the existing components for MongoDB will help in understanding their pourpose in a full deployment as productive enviroments, which is likely you will interact with all of them.   
 
 # Components:
 The existing components for MongoDB are:
