@@ -2,7 +2,9 @@
 Ok, one of the possible questions you might be thinking at this point is: 
 "**What I can do with that components?**"
 
-MongoDB provides the following capability for data replication and availability, and those are the components necessary to achieve these features:
+MongoDB provides diverse implementation for data replication and availability, and that were the components necessary to achieve these features. 
+
+Below we have a list of possible implementations:
 
 ---
 [Standalone](https://docs.mongodb.com/manual/reference/glossary/#std-term-standalone) - *It is the Basic installation, a single node [mongod](https://docs.mongodb.com/manual/reference/program/mongod/#mongodb-binary-bin.mongod).*
