@@ -42,7 +42,7 @@ As we created a new database in the step above, it's empty.
 - Inside database **module1** we only have the user db_admin, which where its authenticates.
 
 ## Checking document structure:
-- For most of the time before querying any document, we just wan't to understand what's in the structure. 
+- For most of the time before querying any document, we just want to understand what's in the structure. 
 For that we can make use of database function [findOne()](https://docs.mongodb.com/realm/mongodb/actions/collection.findOne/#collection.findone--), to return a single document from a collection:
 
 `db.reviews.findOne()`{{execute}}
